@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsItemTheme" parent="android:Theme.Light">
+        <item name="android:textAppearance">@style/SettingsItemAppearence</item>
+    </style>
+    <style name="SettingsItemAppearence" parent="@android:style/TextAppearance">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/btnBlue</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+</resources>

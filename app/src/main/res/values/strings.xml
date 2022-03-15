@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Шагомер</string>
+    <string name="start">Пуск</string>
+    <string name="reset">Сброс</string>
+    <string name="stepsNumber">Шагов пройдено </string>
+    <string name="calories_burned">Сожжено калорий</string>
+    <string name="meters_covered">Метров пройдено</string>
+    <string name="time_passed">Секунд прошло</string>
+    <string name="settings">Настройки</string>
+    <string name="sensetivity">Чувствительность</string>
+    <string name="growth">Рост</string>
+    <string name="weight">Вес</string>
+    <string name="submit">Установить</string>
+    <string name="cancel">Отмена</string>
+    <string name="santimeters">см</string>
+    <string name="kilograms">кг</string>
+    <string name="step_length">Длина шага</string>
+    <string name="statistics">Статистика</string>
+    <string name="share">Поделиться</string>
+    <string name="date">Дата</string>
+
+    <string name="setting_prefs_name">settings</string>
+    <string name="sensitivity_key">sensitivity</string>
+    <string name="growth_key">growth</string>
+    <string name="weight_key">weight</string>
+    <string name="step_length_key">step_length</string>
+</resources>

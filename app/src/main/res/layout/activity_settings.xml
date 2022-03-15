@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/tv_sensitivity"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="@string/sensetivity"
+        style="@style/SettingsItemAppearence"/>
+    <SeekBar
+        android:id="@+id/sbSensetivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="8"
+        android:max="9" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/tv_growth"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="@string/growth"
+        style="@style/SettingsItemAppearence"/>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/tv_weight"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="@string/weight"
+        style="@style/SettingsItemAppearence"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/tv_step_length"
+        style="@style/SettingsItemAppearence"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/step_length" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+</LinearLayout>

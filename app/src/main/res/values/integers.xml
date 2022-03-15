@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_sensitivity">8</integer>
+    <integer name="default_growth">170</integer>
+    <integer name="default_weight">70</integer>
+    <integer name="default_step_length">75</integer>
+</resources>
